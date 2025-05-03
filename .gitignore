@@ -1,0 +1,23 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore system-specific files (macOS/Windows)
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore model artifacts (e.g., pickle files)
+*.pkl
